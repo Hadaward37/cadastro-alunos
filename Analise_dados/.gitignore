@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.Python
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dados sensíveis
+data/raw/*.csv
+data/raw/*.xlsx
+config/database.py
+config/secrets.py
+
+# VS Code
+.vscode/
+
+# Sistema
+.DS_Store
+Thumbs.db
